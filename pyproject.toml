@@ -51,12 +51,12 @@
 
 [tool.poetry.group.dev.dependencies]
     wheel = "*"
-    pytest = "^5.2"
-    pytest-cov = "*"
+    pytest = "^8.0"
+    pytest-cov = "^5.0"
     pre-commit = "*"
     black = { version = "*", allow-prereleases = true }
     pylint = "*"
-    nbval = "*"
+    nbval = "^0.11"
     sphinx = "4.2.0"
     jinja2 = "3.0.0"
     mkdocs = "1.2.3"
