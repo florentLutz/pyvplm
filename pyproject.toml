@@ -33,7 +33,7 @@
     ]
 
 [tool.poetry.dependencies]
-    python = ">=3.8, <3.10"
+    python = ">=3.8, <3.11"
     numpy = ">=1.22.0"
     scipy = "*"
     scikit-learn = "*"
@@ -49,7 +49,7 @@
     xlrd = "*"
     openpyxl = "*"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
     wheel = "*"
     pytest = "^5.2"
     pytest-cov = "*"
